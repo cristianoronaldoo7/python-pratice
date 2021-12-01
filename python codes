@@ -1,0 +1,243 @@
+#print('THE GOATS OF FOOTBALL ARE {0} and {1}'.format('RONALDO', 'MESSI'))
+#for x in range(1, 101):
+       # print('{0:3d} {1:4d} {2:5d} {3:6d}'.format(x, x*x, x*x*x,x*x*x*x))
+      
+       
+# a=int(input("number1 "))
+# b=int(input("number2 ")) 
+# c=a*b
+# d=a+b 
+# if c > 1000:
+#       print("the result is",d)
+# else:
+#      print("the result is",c) 
+
+# print("Printing current and previous number sum in a range(10)")
+# for x in range(1,11): 
+#  print("current number",x,"previous number",x-1,"sum:",x+x-1) 
+
+# word = input('Enter word ')
+# print("Original String:", word)
+
+#x = list(word)
+# for i in x[0::2]:
+#     print(i) 
+
+# """ score = 100
+# if score < 80 and score > 70:
+#     print("A")
+# elif score < 90 or score > 80:
+#     print("B")
+# elif score > 60:
+#     print("C")
+# else:
+#     print("D") """ 
+
+    
+
+# a = input()
+# b = input()
+# c=int(a) + int (b)
+# d=int(a) - int (b)
+# e=int(a) * int (b)
+# print(c)
+# print(d)
+# print(e) 
+
+
+# print("Welcome to the Love Calculator!")
+# name1 = input("What is your name? \n")
+# name2 = input("What is their name? \n")
+
+# comb = name1 + name2
+# x=comb.lower() 
+# t = x.count("t")
+# r = x.count("r")
+# u = x.count("u")
+# e = x.count("e") 
+
+# true= t + r + u + e 
+
+# l = x.count("l")
+# o = x.count("o") 
+# v= x.count("v")
+# e= x.count("e")
+# love= l + o + v + e
+# ls=int(str(true) + str(love)) 
+# if (ls  < 10) or (ls > 90): 
+#   print(f"Your score is {ls}, you go together like coke and mentos.")  
+# elif (ls >=40) and (ls  <=50):
+#     print(f"Your score is {ls}, you are alright together.")
+# else:
+#     print(f"Your score is {ls}.") 
+
+# height = input("enter your height in m: ")
+# weight = input("enter your weight in kg: ")
+
+# b=int(weight)/float(height)**2 
+# bmi=round(b)
+# print(bmi) 
+# age = input("What is your current age?")
+# left=90-int(age) 
+# days = int(left)*365
+# weeks=int(left)*52
+# months=int(left)*12
+
+# print(f"You have {days} days, {weeks} weeks, and {months} months left.")
+
+# number = int(input("Which number do you want to check? "))
+# if number%2==0:
+#     print("This is an even number.")
+# else:
+#     print("This is an odd number.")   
+
+
+# year = int(input("Which year do you want to check? "))
+
+# if year % 4  ==0:
+#     if year % 100  ==0:
+#         if year % 400  ==0:
+    
+#          print("leap year.")
+#         else:
+#          print("Not leap year.")
+#     else:
+#       print("leap year.")
+# else:
+#     print("Not leap year.")
+
+
+# print("Welcome to Python Pizza Deliveries!")
+# size = input("What size pizza do you want? S, M, or L ")
+# add_pepperoni = input("Do you want pepperoni? Y or N ")
+# extra_cheese = input("Do you want extra cheese? Y or N ")
+
+# bill=0
+# if size == "S":
+#  bill+=15
+# elif size == "M":
+#  bill+=20
+# else:
+#     bill+=25     
+# if add_pepperoni=="Y": 
+#     if size == "S":
+#        bill+=2
+#     elif size=="M" or "L":
+#        bill+=3
+#     else:
+#         bill+=0
+        
+# if extra_cheese=="Y":
+#     bill+=1 
+
+
+# print(f"Your final bill is:${bill}")
+
+# print("Welcome to the Love Calculator!")
+# name1 = input("What is your name? \n")
+# name2 = input("What is their name? \n")
+# comb = name1 + name2
+# x=comb.lower() 
+# t = x.count("t")
+# r = x.count("r")
+# u = x.count("u")
+# e = x.count("e") 
+
+# true= t + r + u + e 
+
+# l = x.count("l")
+# o = x.count("o") 
+# v= x.count("v")
+# e= x.count("e")
+# love= l + o + v + e
+# ls=int(str(true) + str(love)) 
+# if (ls  < 10) or (ls > 90): 
+#   print(f"Your score is {ls}, you go together like coke and mentos.")  
+# elif (ls >=40) and (ls  <=50):
+#     print(f"Your score is {ls}, you are alright together.")
+# else:
+#     print(f"Your score is {ls}.")
+
+
+# import random 
+# test_seed = int(input("Create a seed number: "))
+# random.seed(test_seed)
+# no = random.randint(0,1)
+# if no == 0:
+#     print("Tails")
+# else:
+#     print("Heads")
+
+
+# import random
+
+# test_seed = int(input("Create a seed number: "))
+# random.seed(test_seed)
+
+# names_string = input("Give me everybody's names, separated by a comma. ")
+# names = names_string.split(", ")
+
+# c = len(names)
+# rand=random.randint(0,c-1)
+# pay=names[rand]
+# print(f"{pay} is going to buy the meal today!") 
+
+
+# row1 = ["⬜️","⬜️","⬜️"]
+# row2 = ["⬜️","⬜️","⬜️"]
+# row3 = ["⬜️","⬜️","⬜️"]
+# map = [row1, row2, row3]
+# print(f"{row1}\n{row2}\n{row3}")
+# position = input("Where do you want to put the treasure? ")
+
+# hor=int(position[0])
+# ver=int(position[1])
+# row=map[ver-1]
+# row[hor-1]="x" 
+
+# print(f"{row1}\n{row2}\n{row3}")
+# student_heights = input("Input a list of student heights ").split()
+# for n in range(0, len(student_heights)):
+#   student_heights[n] = int(student_heights[n])
+# # print(student_heights)
+
+# total_height = 0
+# for height in student_heights:
+#   total_height += height
+# print(f"total height = {total_height}")
+
+# number_of_students = 0
+# for student in student_heights:
+#   number_of_students += 1
+# print(f"number of students = {number_of_students}")
+  
+# average_height = round(total_height / number_of_students)
+# print(average_height)
+
+# student_scores = input("Input a list of student scores ").split()
+# for n in range(0, len(student_scores)):
+#   student_scores[n] = int(student_scores[n])
+# print(student_scores)
+
+# high=0
+# for score in student_scores:
+#   if score > high:
+#     high = score
+# print(f"The highest score in the class is:   {high}")
+
+# t=0
+# for n in range(0,101,2):
+#  t += n
+# print(t)  
+
+# n=0
+# for n in range(1,101):
+  
+#   if n%3==0 and n%5==0:
+#     print("FizzBuzz")
+#   elif n%5==0:
+#     print("Buzz")
+#   elif n%3==0:
+#     print("Fizz") 
+#   else:
+#       print(n)
